@@ -4,14 +4,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class UserInterface {
-    private Dealership dealership;
+    private week6.cardealership.Dealership dealership;
     private static Scanner scanner = new Scanner(System.in);
 
     public UserInterface() {
     }
 
     private void init() {
-        this.dealership = DealershipFileManager.getDealerShip();
+        this.dealership = week6.cardealership.DealershipFileManager.getDealerShip();
     }
 
     public void display() {

@@ -9,7 +9,7 @@ public class DealershipFileManager {
 
     public static String fileLocation = "src/main/resources/inventory.csv";
 
-    public static Dealership getDealerShip() {
+    public static week6.cardealership.Dealership getDealerShip() {
         Dealership dealership = null;
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader(fileLocation))) {
             String[] dealershipString = bufferedReader.readLine().split("\\|");
