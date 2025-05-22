@@ -1,0 +1,6 @@
+class LeaseContract extends Contract {
+
+
+
+
+}
